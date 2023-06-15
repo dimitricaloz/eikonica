@@ -1,0 +1,55 @@
+.program h2 {
+  font-family: "switzer", sans-serif;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 72px;
+  border: solid 4px #1dc61c;
+  border-bottom: none;
+}
+
+.program {
+  margin-top: 55px;
+}
+
+.program h2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+.container {
+  overflow: hidden;
+  height: 0px;
+  transition: 0.4s ease-in-out;
+  &.is-open {
+    height: 150px;
+  }
+}
+
+.button {
+  height: 50px;
+  width: 100%;
+  border: solid 4px #1dc61c;
+  border-top: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button:first-child {
+  border-top: solid 4px #1dc61c;
+}
+
+.schedule {
+  display: flex;
+  flex-direction: row;
+  border: solid 4px #1dc61c;
+  border-bottom: none;
+}
+
+.schedule:first-child {
+  border-top: none;
+}
+
+.hour {
+  border-right: solid 4px #1dc61c;
+}

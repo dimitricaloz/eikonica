@@ -1,5 +1,6 @@
+@import "bootstrap/scss/bootstrap-grid";
 @import "base";
 @import "layout";
-@import "modules/_header";
-@import "modules/_intro";
-@import "bootstrap/scss/bootstrap-grid";
+@import "modules/header";
+@import "modules/intro";
+@import "modules/program";
