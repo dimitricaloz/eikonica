@@ -2,8 +2,15 @@
   border-top: solid 3px;
 }
 
-.footer-nav .logo-eikonica {
+.footer-nav .logo-mention {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+}
+
+.social-media {
   display: flex;
   flex-direction: row;
-  text-align: center;
+  justify-content: space-between;
 }
