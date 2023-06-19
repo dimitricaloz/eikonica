@@ -1,17 +1,4 @@
-.program h2 {
-}
-
-.program {
-  margin-top: 55px;
-}
-
-.program h2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: end;
-  padding-right: 73px;
-  padding-top: 28px;
-  padding-bottom: 28px;
+.exposition h2 {
   font-family: "switzer", sans-serif;
   font-weight: 600;
   font-size: 64px;
@@ -20,7 +7,20 @@
   border-bottom: none;
 }
 
-.program a {
+.exposition {
+  margin-top: 55px;
+}
+
+.exposition h2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  padding-right: 73px;
+  padding-top: 28px;
+  padding-bottom: 28px;
+}
+
+.exposition a {
   font-family: "switzer", sans-serif;
   font-weight: 500;
   display: flex;
