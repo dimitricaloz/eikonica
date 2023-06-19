@@ -16,3 +16,64 @@
   border: solid 4px #18a9dd;
   border-bottom: none;
 }
+
+.expo-content-left h3 {
+  font-family: "switzer", sans-serif;
+  font-weight: 600;
+  font-size: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 47px;
+}
+
+.expo-content-left p {
+  font-family: "switzer", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-align: justify;
+  margin-top: 37px;
+  margin-bottom: 37px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.expo-content-left {
+  border: solid 4px #18a9dd;
+  border-right: none;
+}
+
+.expo-content-right h3 {
+  font-family: "switzer", sans-serif;
+  font-weight: 600;
+  font-size: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 47px;
+}
+
+.expo-content-right p {
+  font-family: "switzer", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-align: justify;
+  margin-top: 37px;
+  margin-bottom: 37px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.expo-content-right {
+  border: solid 4px #18a9dd;
+  border-bottom: none;
+  border-top: none;
+}
+
+.expo-img-right {
+  border: solid 4px #18a9dd;
+}
+
+.expo-img-left {
+  border-left: solid 4px #18a9dd;
+}
