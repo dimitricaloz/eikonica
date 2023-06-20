@@ -6,15 +6,20 @@
   display: flex;
   flex-direction: row;
   justify-content: end;
-  padding-right: 73px;
-  padding-top: 28px;
-  padding-bottom: 28px;
+  padding-bottom: 10px;
   font-family: "switzer", sans-serif;
   font-weight: 600;
   font-size: 64px;
-  line-height: 72px;
   border: solid 4px #1dc61c;
-  border-bottom: none;
+}
+
+.program h3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: "switzer", sans-serif;
+  font-weight: 500;
+  font-size: 35px;
 }
 
 .program a {
@@ -24,10 +29,61 @@
   flex-direction: row;
   justify-content: center;
   font-size: 35px;
-  line-height: 72px;
   border: solid 4px #1dc61c;
   border-top: none;
   text-decoration: underline;
-  padding-top: 39px;
-  padding-bottom: 39px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.container-accordion {
+  overflow: hidden;
+  height: 0px;
+  transition: 0.4s ease-in-out;
+  &.is-open {
+    border-bottom: solid 4px #1dc61c;
+    height: 550px;
+  }
+  &.is-open-last-one {
+    border-bottom: none;
+    height: 474px;
+  }
+}
+
+.container-dimanche .schedule:last-of-type {
+  border-bottom: solid 4px #1dc61c;
+}
+
+.button {
+  height: 100px;
+  width: 100%;
+  border: solid 4px #1dc61c;
+  border-top: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.schedule {
+  display: flex;
+  flex-direction: row;
+  border: solid 4px #1dc61c;
+  border-bottom: none;
+}
+
+.schedule:first-child {
+  border-top: none;
+}
+
+.hour {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-right: solid 4px #1dc61c;
+}
+
+.hour {
+  font-family: "switzer", sans-serif;
+  font-weight: 5400;
+  font-size: 35px;
 }
