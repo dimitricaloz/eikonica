@@ -1,5 +1,18 @@
 .program {
   margin-top: 55px;
+  font-family: "switzer", sans-serif;
+  font-weight: 5400;
+  font-size: 35px;
+}
+
+.schedule .program {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 27.5px 0;
+  padding-left: 41px;
 }
 
 .program h2 {
@@ -42,11 +55,11 @@
   transition: 0.4s ease-in-out;
   &.is-open {
     border-bottom: solid 4px #1dc61c;
-    height: 550px;
+    height: 616px;
   }
   &.is-open-last-one {
     border-bottom: none;
-    height: 474px;
+    height: 514px;
   }
 }
 
@@ -80,9 +93,6 @@
   align-items: center;
   justify-content: center;
   border-right: solid 4px #1dc61c;
-}
-
-.hour {
   font-family: "switzer", sans-serif;
   font-weight: 5400;
   font-size: 35px;
