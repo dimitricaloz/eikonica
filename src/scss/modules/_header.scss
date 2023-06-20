@@ -10,6 +10,22 @@ header a {
   text-decoration: none;
   font-weight: 500;
   padding-top: 4px;
+  position: relative;
+}
+
+header a::after {
+  position: absolute;
+  top: 30px;
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0;
+  background: black;
+  transition: 0.3s ease all;
+}
+
+header a:hover::after {
+  width: 100%;
 }
 
 header nav {
@@ -24,6 +40,22 @@ header {
   border-bottom: solid 3px;
 }
 
-header .language {
-  text-decoration: underline;
+.language-selector {
+  margin-top: 5px;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: "switzer", sans-serif;
+}
+
+.language-selector::after {
+  content: " / ";
+}
+
+.language-selector:last-child::after {
+  display: none;
+}
+
+.language-selector.active {
+  font-weight: bold;
 }

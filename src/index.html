@@ -19,12 +19,15 @@
           </div>
           <div class="col-7 offset-3">
             <nav>
-              <a href="#">programme</a>
-              <a href="#">expositions</a>
+              <a href="#program">programme</a>
+              <a href="#exposition">expositions</a>
               <a href="#">infos pratiques</a>
-              <a href="#">partenaires</a>
+              <a href="#partner">partenaires</a>
               <a href="#">contact</a>
-              <a class="language" href="#">FR/DE</a>
+              <div class="language">
+                <span class="language-selector active">FR</span>
+                <span class="language-selector">DE</span>
+              </div>
             </nav>
           </div>
         </div>
@@ -53,7 +56,7 @@
           </div>
         </div>
       </div>
-      <div class="program">
+      <div id="program" class="program">
         <div class="container program">
           <div class="row">
             <div class="col-12 p-0">
@@ -61,7 +64,9 @@
             </div>
             <div class="col-12 button button-vendredi">
               <h3 class="col-10 offset-1">VENDREDI 13 OCTOBRE</h3>
-              <p>flèche</p>
+              <div class="col-2 arrow-button">
+                <img src="img/arrow.svg" alt="flèche" />
+              </div>
             </div>
             <div class="container p-0 container-accordion container-vendredi">
               <div class="col-11 offset-1 schedule">
@@ -103,7 +108,9 @@
             </div>
             <div class="col-12 button button-samedi">
               <h3 class="col-10 offset-1">SAMEDI 14 OCTOBRE</h3>
-              <p>flèche</p>
+              <div class="col-2 arrow-button">
+                <img src="img/arrow.svg" alt="flèche" />
+              </div>
             </div>
             <div class="container p-0 container-accordion container-samedi">
               <div class="col-11 offset-1 schedule">
@@ -149,7 +156,9 @@
             </div>
             <div class="col-12 button button-dimanche">
               <h3 class="col-10 offset-1">DIMANCHE 15 OCTOBRE</h3>
-              <p>flèche</p>
+              <div class="col-2 arrow-button">
+                <img src="img/arrow.svg" alt="flèche" />
+              </div>
             </div>
             <div class="container p-0 container-accordion container-dimanche">
               <div class="col-11 offset-1 schedule">
@@ -196,7 +205,7 @@
       <div class="exposition">
         <div class="container exposition p-0">
           <div class="row g-0">
-            <div class="col-12">
+            <div id="exposition" class="col-12">
               <h2>EXPOSITIONS</h2>
             </div>
             <div class="col-6 expo-content-left">
@@ -215,10 +224,15 @@
               </p>
             </div>
             <div class="col-6 expo-img-right">
-              <img src="img/image-expo-1.png" alt="créations générative" />
+              <img src="img/image-expo-1.webp" alt="créations générative" />
+              <p>
+                ART <br />
+                ALGORITHMIQUE
+              </p>
             </div>
             <div class="col-6 expo-img-left">
-              <img src="img/image-expo-2.png" alt="créations générative" />
+              <img src="img/image-expo-2.webp" alt="créations générative" />
+              <p>EXPLORATIONS IMMERSIVES</p>
             </div>
             <div class="col-6 expo-content-right">
               <h3>AU-DELÀ DE L’ÉCRAN</h3>
@@ -249,7 +263,8 @@
               </p>
             </div>
             <div class="col-6 expo-img-right">
-              <img src="img/image-expo-3.png" alt="créations générative" />
+              <img src="img/image-expo-3.webp" alt="créations générative" />
+              <p>INTERFACES EXPÉRIMENTALES</p>
             </div>
           </div>
         </div>
@@ -276,7 +291,7 @@
           <div class="row footer-partners"></div>
         </div>
         <div class="container-fluid">
-          <div class="row footer-sponsor">
+          <div id="partner" class="row footer-sponsor">
             <div class="col-6 offset-3 logo-sponsor">
               <img src="img/frison-logo.svg" alt="logo frison" />
               <img src="img/eikon-logo.svg" alt="logo eikon" />

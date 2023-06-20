@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="75.0000177px" height="36.0000177px" viewBox="0 0 75.0000177 36.0000177" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>arrow</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="eikonica-click" transform="translate(-1192, -696)" stroke="#000000" stroke-width="3">
+            <g id="main" transform="translate(60, 145)">
+                <g id="programme" transform="translate(0, 392)">
+                    <g id="section-jour-1" transform="translate(73, 153)">
+                        <g id="arrow" transform="translate(1096.5, 24) rotate(-180) translate(-1096.5, -24)translate(1060, 7)">
+                            <line x1="0.5" y1="33.5" x2="36.5" y2="0.5" id="Line-4"></line>
+                            <line x1="72.5" y1="33.5" x2="36.5" y2="0.5" id="Line-5"></line>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

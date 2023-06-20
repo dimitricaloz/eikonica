@@ -19,7 +19,9 @@
   display: flex;
   flex-direction: row;
   justify-content: end;
-  padding-bottom: 10px;
+  padding-bottom: 28px;
+  padding-top: 28px;
+  padding-right: 72;
   font-family: "switzer", sans-serif;
   font-weight: 600;
   font-size: 64px;
@@ -49,17 +51,50 @@
   padding-bottom: 5px;
 }
 
+.program a:hover {
+  color: #1dc61c;
+}
 .container-accordion {
   overflow: hidden;
   height: 0px;
   transition: 0.4s ease-in-out;
   &.is-open {
     border-bottom: solid 4px #1dc61c;
-    height: 616px;
+    height: 719px;
   }
   &.is-open-last-one {
     border-bottom: none;
-    height: 514px;
+    height: 616px;
+  }
+}
+
+.button-vendredi {
+  .arrow-button img {
+    transform: rotate(0);
+    transition: 0.5s;
+  }
+  &.is-active .arrow-button img {
+    transform: rotate(180deg);
+  }
+}
+
+.button-samedi {
+  .arrow-button img {
+    transform: rotate(0);
+    transition: 0.5s;
+  }
+  &.is-active .arrow-button img {
+    transform: rotate(180deg);
+  }
+}
+
+.button-dimanche {
+  .arrow-button img {
+    transform: rotate(0);
+    transition: 0.5s;
+  }
+  &.is-active .arrow-button img {
+    transform: rotate(180deg);
   }
 }
 
@@ -96,4 +131,19 @@
   font-family: "switzer", sans-serif;
   font-weight: 5400;
   font-size: 35px;
+}
+
+.program a {
+  padding: 39px 45px;
+}
+
+.button img {
+  max-width: 73px;
+}
+
+.arrow-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
 }
