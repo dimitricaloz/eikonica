@@ -1,0 +1,23 @@
+.footer-sponsor {
+  border-top: solid 3px;
+}
+
+.footer-sponsor img {
+  max-width: 109px;
+}
+
+.logo-sponsor {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.credit p {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  font-family: "switzer", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  text-align: center;
+}
