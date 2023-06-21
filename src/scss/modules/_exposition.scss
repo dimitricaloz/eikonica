@@ -82,39 +82,36 @@
   transition: opacity 0.2s;
 }
 
-.expo-img-right p {
-  opacity: 0%;
-  position: absolute;
-  font-family: "switzer", sans-serif;
-  font-weight: 900;
-  font-size: 64px;
-  color: white;
-  line-height: 72px;
-  top: 255px;
-  left: 45px;
+.expo-img-left,
+.expo-img-right {
+  position: relative;
 }
 
-.expo-img-left p {
-  opacity: 0%;
-  position: absolute;
-  font-family: "switzer", sans-serif;
-  font-weight: 900;
-  font-size: 64px;
-  color: white;
-  top: 255px;
-  left: 45px;
-  line-height: 72px;
-  height: 100%;
+.expo-img-left-content,
+.expo-img-right-content {
+  transition-property: opacity;
+  transition-duration: 0.4s;
+  opacity: 0;
+  backdrop-filter: blur(10px);
   width: 100%;
-  display: block;
+  height: 100%;
+  position: absolute;
+  font-family: "switzer", sans-serif;
+  font-weight: 900;
+  font-size: 64px;
+  color: white;
+  top: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding-left: 40px;
+  padding-bottom: 40px;
 }
 
-.expo-img-left:hover p {
+.expo-img-left-content:hover {
   opacity: 1;
 }
 
-.expo-img-left :hover {
-  -webkit-backdrop-filter: blur(5px);
-  backdrop-filter: blur(6px);
-  top: 0;
+.expo-img-right-content:hover {
+  opacity: 1;
 }
