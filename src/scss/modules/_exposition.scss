@@ -115,3 +115,31 @@
 .expo-img-right-content:hover {
   opacity: 1;
 }
+
+.exposition-title {
+  position: relative;
+}
+
+.patch-2 {
+  position: absolute;
+  max-width: 126px;
+  left: 500px;
+  bottom: 100px;
+  transform: scale;
+  transition-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation: scale 2s linear infinite;
+}
+
+@keyframes scale {
+  0% {
+    scale: 100%;
+  }
+  50% {
+    scale: 85%;
+  }
+  100% {
+    scale: 100%;
+  }
+}

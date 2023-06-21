@@ -18,5 +18,30 @@
 }
 
 .intro {
-  margin-top: 55px;
+  margin-top: 105px;
+}
+
+.patch {
+  max-width: 180px;
+  position: absolute;
+  bottom: 245px;
+  left: -85px;
+  transform: rotate(360deg);
+  transition-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation: rotate 10s linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.intro-title {
+  position: relative;
 }

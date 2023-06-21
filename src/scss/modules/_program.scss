@@ -1,5 +1,5 @@
 .program {
-  margin-top: 55px;
+  margin-top: 95px;
   font-family: "switzer", sans-serif;
   font-weight: 5400;
   font-size: 35px;
@@ -46,12 +46,13 @@
   font-size: 35px;
   border: solid 4px #1dc61c;
   border-top: none;
-  text-decoration: underline;
+  text-decoration: none;
   padding-top: 5px;
   padding-bottom: 5px;
 }
 
 .program a:hover {
+  animation-duration: 2s;
   color: #1dc61c;
 }
 .container-accordion {
@@ -146,4 +147,15 @@
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
+}
+
+.program .gif {
+  position: absolute;
+  max-width: 366px;
+  bottom: 60px;
+  right: 1000px;
+}
+
+.program-title {
+  position: relative;
 }
